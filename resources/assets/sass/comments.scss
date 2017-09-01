@@ -1,0 +1,52 @@
+html, body {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  margin: 0;
+}
+span {
+  padding: 2px;
+}
+li {
+  list-style-type: none;
+  padding: 7px 0;
+}
+a {
+  cursor: pointer;
+}
+.title {
+  font-size: 44px;
+  text-align: center;
+}
+.content {
+  margin-bottom: 50px;
+}
+.full-height {
+  height: 100vh;
+}
+.edited {
+  color: #3097D1 !important;
+}
+.deleted-comment {
+  color: #8d8d8d;
+}
+.panel {
+  margin-left: 40px;
+}
+.comment-head {
+  background-color: rgba(173, 179, 182, 0.28);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  a {
+    color: #a4a4a4;
+    &:hover {
+      color: #858585;
+    }
+  }
+}
+.new-comment {
+  button {
+    margin-top: 5px;
+  }
+}

@@ -15,8 +15,13 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+const commentsContainer = Vue.component('comments-container', require('./components/CommentsContainer.vue'));
+const newComment= Vue.component('new-comment', require('./components/NewComment.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    components: {
+        newComment: newComment,
+        commentsContainer: commentsContainer
+    }
 });
